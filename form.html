@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="form alidation.js"></script>
+    <link rel="stylesheet" href="form style.css" />
+</head>
+<body>
+    <h1 style="text-align: center">Form</h1>
+    <form action="" method="post" name="myform" onsubmit="return formvalidations() ">
+        <!--first name input-->
+        <div class="formdesign" id="name">
+            First Name: <input type="text" name="fname" required /><b><span class="formerror"> </span></b>
+        </div>
+        <!--last name input-->
+        <div class="formdesign" id="lname">
+            Last Name: <input type="text" name="flname" required /><b><span class="formerror"> </span></b>
+        </div>
+        <!--contact number input-->
+        <div class="formdesign" id="phone">
+            Contact Number: <input type="phone" name="fphone" required /><b><span class="formerror"> </span></b>
+        </div>
+        <!--email input-->
+        <div class="formdesign" id="email">
+            Email: <input type="email" name="femail" required /><b><span class="formerror"> </span></b>
+        </div>
+        <!--Confirm Email input-->
+        <div class="formdesign" id="cemail">
+            Confirm Email: <input type="email" name="fcemail" required /><b><span class="formerror"> </span></b>
+        </div>
+        <!--password input-->
+        <div class="formdesign" id="pass">
+            Password: <input type="password" name="fpass" required /><b><span class="formerror"> </span></b>
+        </div>
+        <!--confirm password input-->
+        <div class="formdesign" id="cpass">
+            Confirm Password: <input type="password" name="fcpass" required /><b><span class="formerror"> </span></b>
+        </div>
+         <!--checkbox-->
+         <div class="formdesign">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1">
+                I accept the <span><a href="#">terms of service</a></span>
+                I agree that eTicket Solutions may share my information with the event organizer.
+            </label>
+        </div>
+        <!--submit-->
+        <input class="but" type="submit" value="submit" />
+    </form>
+</body>
+</html>

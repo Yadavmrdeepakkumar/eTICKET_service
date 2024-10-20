@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* navbar styling */
+.navbar
+{
+    background-color: rgb(189, 175, 202); 
+}
+
+.d-flex
+{
+    padding-right:-5px ;
+    
+    padding-bottom: 0%;
+}
+.navbar-brand img
+{
+    border-radius: 8px;
+}
+.navbar #signup
+{
+  border-radius: 5px;
+  background-color: #162c05;
+}
+.navbar #signin
+{
+    border-radius: 5px;
+  background-color:rgb(238, 158, 9);
+}
+
+/*footer part*/
+/*footer part*/
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #bdbdbd;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}
+.social-icons a {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    color: #bdbdbd;
+}
+.social-icons a:hover {
+    color: #fff;
+}
+.footer-bottom {
+    padding: 10px 0;
+    border-top: 1px solid #555;
+    margin-top: 20px;
+}
+
+/**/
+.event-banner
+{
+    padding: 1.66%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
